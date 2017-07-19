@@ -1,9 +1,29 @@
 * {
-    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
     margin: 0;
+    padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+}
+h1, h2, h3, .font {
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+body, html {
+    height: 100%;
 }
 
 
@@ -305,30 +325,6 @@
     align-self: auto;
     margin: 3em;
 }
-
-h1,
-h2,
-h3, .font {
-    font-family: 'Amatic SC', cursive;
-}
-
-h1 {
-    font-size: 7em;
-}
-
-h2 {
-    font-size: 3em;
-}
-
-h3 {
-    font-size: 2.5em;
-}
-
-body,
-html {
-    height: 100%;
-}
-
 
 /***** Pagina Home - (index.html)*******/
 
