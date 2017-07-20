@@ -2,43 +2,40 @@
 <html lang="es">
 
 <head>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <script src="doubletaptogo.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <script src="doubletaptogo.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js">
 
-    </script>
-    <script>
-        $(function () {
-            $('#nav li:has(ul)').doubleTapToGo();
+  </script>
+  <script>
+    $(function () {
+      $('#nav li:has(ul)').doubleTapToGo();
+    });
+  </script>
+  <script>
+    $(function () {
+      $('.child').hover(function () {
+        $(this).parent().parent().addClass("black");
+      },
+        function () {
+          $(this).parent().parent().removeClass("black");
         });
-    </script>
-    <script>
-        $(function () {
-            $('.child').hover(function () {
-                $(this).parent().parent().addClass("black");
-            },
-                function () {
-                    $(this).parent().parent().removeClass("black");
-                });
-        });
-    </script>
+    });
+  </script>
 </head>
 
 <body>
-    <div class="ugd_ele_normal_base">
-        <input name="ugd_1" type="submit" class="ugd_ele_normal" />
-    </div>
-    <!--end ugd_ele_normal_base-->
-
-    <br>
-
-    <ul class="parent">
-        <li><a class="child" href="?design">Design</a></li>
-        <li><a class="child" href="?html">HTML</a></li>
-        <li><a class="child" href="?css">CSS</a></li>
-        <li><a class="child" href="?javascript">JavaScript</a></li>
-    </ul>
+  <div class="ugd_ele_normal_base">
+    <input name="ugd_1" type="submit" class="ugd_ele_normal" />
+  </div>
+  <!--end ugd_ele_normal_base-->
+  <ul class="parent">
+    <li><a class="child" href="?design">Design</a></li>
+    <li><a class="child" href="?html">HTML</a></li>
+    <li><a class="child" href="?css">CSS</a></li>
+    <li><a class="child" href="?javascript">JavaScript</a></li>
+  </ul>
 
 </body>
 
