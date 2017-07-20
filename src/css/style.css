@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Amatic SC', cursive;
+   font-size: 20px; 
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -11,15 +12,15 @@ h1, h2, h3, .font {
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 7rem;
 }
 
 h2 {
-  font-size: 3em;
+   font-size: 3rem; 
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 body, html {
@@ -38,7 +39,7 @@ body, html {
   justify-content: flex-start;
   align-content: stretch;
   align-items: flex-start;
-  margin-bottom: -1.3em;
+  margin-bottom: -1.3rem;
 }
 
 .logo {
@@ -48,7 +49,7 @@ body, html {
 }
 
 .logo img {
-  max-width: 4em;
+  max-width: 4rem;
   display: inline-block;
   text-align: center;
   padding: 13px 12px;
@@ -56,13 +57,13 @@ body, html {
 
 .nav {
   width: 100%;
-  height: 5em;
+  height: 5rem;
   /*
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   position: absolute;
   left: 50%;
-  margin-left: -40em;
+  margin-left: -40rem;
   */
 }
 
@@ -94,7 +95,7 @@ body, html {
 .nav span:after {
   width: 0;
   height: 0;
-  /*    border: 0.313em solid transparent;*/
+  /*    border: 0.313rem solid transparent;*/
   /*
   border-bottom: none;
   border-top-color: #efa585;
@@ -103,13 +104,13 @@ body, html {
   vertical-align: middle;
   display: inline-block;
   position: relative;
-  /*    right: -0.313em;*/
+  /*    right: -0.313rem;*/
 }
 
 /* first level */
 
 .nav > ul {
-  height: 3.75em;
+  height: 3.75rem;
   list-style-type: none;
 }
 
@@ -121,16 +122,16 @@ body, html {
 
 .nav > ul > li > a {
   height: 100%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   /* 24 */
-  line-height: 2.5em;
+  line-height: 2.5rem;
   /* 60 (24) */
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   color: #000000;
   text-align: left;
-  padding-left: 1.6em;
+  padding-left: 1.6rem;
   /*        margin-left: 1.2em;*/
 }
 
@@ -166,7 +167,7 @@ body, html {
 .nav li ul a {
   font-size: 1.65em;
   /* border-top: 1px solid #e15a1f; */
-  padding: 0.35em;
+  padding: 0.35rem;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
 }
@@ -187,23 +188,23 @@ body, html {
   }
   
   .nav > ul > li > a {
-    font-size: 1.6em;
+    font-size: 1.6rem;
   }
 }
 
 @media all and (max-width: 810px) {
   .nav > ul > li > a {
-    font-size: 1.45em;
+    font-size: 1.45rem;
   }
 }
 
 @media all and (max-width: 680px) {
   .nav > ul > li > a {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 }
 
-@media only screen and ( max-width: 40em) {
+@media only screen and ( max-width: 640px) {
   /* 640 */
   /*Menu movil*/
   /*html {
@@ -216,8 +217,8 @@ body, html {
     background-color: #A12325;
   }
   .nav > a {
-      width: 3.125em;
-      height: 3.125em;
+      width: 3.125rem;
+      height: 3.125rem;
       text-align: left;
       text-indent: -9999px;
       background-color: #A12325;
@@ -258,7 +259,7 @@ body, html {
   .nav > ul > li > a {
       height: auto;
       text-align: left;
-      padding: 0 0.833em;
+      padding: 0 0.833rem;
       background-color: #A12325;
       /* 20 (24) */
   }
@@ -269,7 +270,7 @@ body, html {
   /* second level */
   .nav li ul {
       position: static;
-      padding: 1.25em;
+      padding: 1.25rem;
       /* 20 */
       padding-top: 0;
       background-color: #901F21;
@@ -289,7 +290,7 @@ body, html {
     width: 100%;
     position: relative;
     margin: 0 auto;
-    line-height: 1.4em;
+    line-height: 1.4rem;
 }
 
 .contenidoDosColumnas {
@@ -300,31 +301,31 @@ body, html {
     align-content: flex-start;
     align-items: center;
     height: 400px;
-    margin: 4em;
+    margin: 4rem;
 }
 
 .columna1 {
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
-    margin: 3em;
+    margin: 3rem;
 }
 
 .columna2 {
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
-    margin: 3em;
+    margin: 3rem;
 }
 
 /***** Pagina Home - (index.html)*******/
 
 .bienvenida {
-    /*    margin-top: 5em;*/
+    /*    margin-top: 5rem;*/
     text-align: center;
     /*    color: #A12325;*/
     color: #fff;
-    padding-top: 10em;
+    padding-top: 10rem;
 }
 
 .parallaxIndexInicio {
@@ -349,7 +350,7 @@ body, html {
     padding: 10rem 8rem;
 }
 .home_letter{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding: 4rem;
 }
 
@@ -450,10 +451,10 @@ img {
         margin: 0;
     }
     .content {
-        padding: 0.5em;
+        padding: 0.5rem;
     }
     .footer {
-        padding: 0.5em 0;
+        padding: 0.5rem 0;
     }
     .footer div.content {
         flex-direction: column;
