@@ -338,7 +338,7 @@ h3 {
 }
 
 .introduccion {
-  height: 80%;
+  height: 80vh;
   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
   background: #f8f8f8;
   font-size: 25px;
@@ -348,6 +348,7 @@ h3 {
 
 .homeParagraphs {
   padding-top: 15rem;
+  //  padding-top: 40%;
 }
 .img-responsive {
 
@@ -356,20 +357,32 @@ h3 {
   background-color: red;
 }*/
 
-.homeImage{
-  /* margin-left: 8rem; */
+.homeImage {
+  padding-top: 6%;
+  width: 90%;
+}
+.parallaxIndexCentro {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/todos.jpg");
+  /* Full height */
+  height: 80%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.parallaxIndexCentro {
-    /* The image used */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/todos.jpg");
-    /* Full height */
-    height: 80%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallaxIndexFinal {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/muestras.jpg");
+  /* Full height */
+  height: 80%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .products {
@@ -469,6 +482,17 @@ h3 {
   margin: 0rem 5rem;
 
 }
+
+/*
+Page Amazilias Womens
+*/
+.descriptionAccordion{
+    font-size: 1.65rem;
+    width: 100%;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    text-align: justify;
+    }
+
 /* Small devices */
 
 @media all and (max-width: 768px) {
@@ -499,12 +523,114 @@ h3 {
     div.content {
         margin-left: 0;
     }
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
 }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
+    }
+}
+
+@media only screen and ( max-width: 640px) {
+
+     h1,h2,p{
+       background-color: red;
+     }
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0; 
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+      height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
+    }
+}
+
 
 @media screen and (max-width: 400px) {
     ul.sidenav li a {
         text-align: center;
         float: none;
+            }
+
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
     }
 }
 
@@ -513,6 +639,39 @@ h3 {
 
 @media only screen and (max-device-width: 1024px) {
     .parallax {
-        background-attachment: scroll;
+        background-attachment: scroll;      
+    }
+
+
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
     }
 }
