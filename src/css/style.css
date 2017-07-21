@@ -352,9 +352,9 @@ h3 {
 .img-responsive {
 
 }
-.col-md-4, .col-md-5 {
+/*.col-md-4, .col-md-5 {
   background-color: red;
-}
+}*/
 
 .homeImage{
   /* margin-left: 8rem; */
@@ -441,10 +441,34 @@ h3 {
 
 /* Page History*/
 
-.historyRow{
+.topRow{
     padding-top: 6rem;
 }
 
+/*Page places */
+.listOfPlaces {
+    font-size: 2rem;
+    padding: 0.2rem;
+    width: 100%;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    text-align: justify;
+    list-style-type:disc;
+}
+
+.place {
+    font-size: 1.7rem;
+    padding: 0.4rem;
+    width: 100%;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    text-align: justify;
+    list-style-type:disc;
+}
+
+.colListOfPlaces{
+  padding: 2rem 10rem;
+  margin: 0rem 5rem;
+
+}
 /* Small devices */
 
 @media all and (max-width: 768px) {
