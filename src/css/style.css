@@ -338,7 +338,7 @@ h3 {
 }
 
 .introduccion {
-  height: 80%;
+  height: 80vh;
   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
   background: #f8f8f8;
   font-size: 25px;
@@ -347,29 +347,36 @@ h3 {
 }
 
 .homeParagraphs {
-  padding-top: 15rem;
-}
-.img-responsive {
-
-}
-.col-md-4, .col-md-5 {
-  background-color: red;
+  padding-top: 40%;
 }
 
-.homeImage{
-  /* margin-left: 8rem; */
+.homeImage {
+  padding-top: 6%;
+  width: 90%;
 }
 
 .parallaxIndexCentro {
-    /* The image used */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/todos.jpg");
-    /* Full height */
-    height: 80%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/todos.jpg");
+  /* Full height */
+  height: 80%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxIndexFinal {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/muestras.jpg");
+  /* Full height */
+  height: 80%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .products {
