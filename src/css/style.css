@@ -79,7 +79,8 @@ h3 {
 }
 
 .nav li a:active {
-  background-color: #A12325;;
+  background-color: #A12325;
+  background-color: #A12325;
   color: white;
 }
 
@@ -377,11 +378,12 @@ h3 {
 }
 
 .description {
-  font-size:4rem;
-  padding-top: 2.5rem;
-  width: 100%;
+    font-size: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    text-align: justify;
 }
-
 .image {
    height: 40rem;
 }
