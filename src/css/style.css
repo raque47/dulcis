@@ -418,9 +418,13 @@ h3 {
     text-align: justify;
 }
 .image {
-   height: 40rem;
+    height: 40rem;
 }
 
+.imageSingleProduct {
+   height: 45vh;   
+   padding-bottom: 2.8rem;
+}
 .imagen1 {
     order: 1;
     flex: 0 1 auto;
@@ -510,6 +514,11 @@ Page Amazilias Womens
     padding: 0.9rem;
 }
 
+.dulcisHomeMobile{
+    display: none;
+}
+
+
 /* Small devices */
 
 @media all and (max-width: 768px) {
@@ -548,13 +557,12 @@ Page Amazilias Womens
       padding-top: 0;
     }
 
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-      display: block;
-      text-align: center;
-      height: 47vh;
-      margin-left: 7rem;
-}
-
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        text-align: center;
+        height: 47vh;
+        margin-left: 7rem;
+    }
 
     .parallaxIndexInicio {
         height: 50vh;
@@ -574,41 +582,39 @@ Page Amazilias Womens
 }
 
 @media only screen and ( max-width: 640px) {
-
-     h1,h2,p{
-       background-color: red;
-     }
-    .homeParagraphs {
-      padding-top: 2rem;
-      padding: 0;
+    .homeParagraphs{
+        padding-top: 0;
     }
-
-    .homeImage {
-      padding-top: 0; 
+    .imageDulcis{
+        width: 57%;
+        margin-left: 9.3rem;
     }
-
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-      display: block;
-      text-align: center;
-      height: 47vh;
-      margin-left: 7rem;
+    .dulcisHomeDesktop{
+        display: none;
     }
-
-
-    .parallaxIndexInicio {
-      height: 50vh;
+    .dulcisHomeMobile{
+        display: block;
+        font-size: 3rem;
+        font-weight: 600;
     }
-
-    .parallaxIndexCentro {
-      height: 30vh;
+    .parallaxIndexInicio {
+        height: 75%;
     }
-
-    .image {
+    .parallaxIndexCentro{
+        height: 63%;
+    }
+    .products{
+        padding-top: 0;
+    }
+    .image{
         height: 32rem;
     }
-
-    .parallaxIndexFinal {
-      height: 55vh;
+    .parallaxIndexFinal{
+        height: 55%;
+    }
+    h2 {
+        margin-top: 0;
+        padding-top: 2rem;
     }
 }
 
