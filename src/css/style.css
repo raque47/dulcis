@@ -482,12 +482,115 @@ h3 {
     div.content {
         margin-left: 0;
     }
+
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
+    }
 }
+
+@media only screen and ( max-width: 640px) {
+
+     h1,h2,p{
+       background-color: red;
+     }
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0; 
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+      height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
+    }
+}
+
 
 @media screen and (max-width: 400px) {
     ul.sidenav li a {
         text-align: center;
         float: none;
+    }
+
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
     }
 }
 
@@ -497,5 +600,38 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
+    }
+
+
+    .homeParagraphs {
+      padding-top: 2rem;
+    }
+
+    .homeImage {
+      padding-top: 0;
+    }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+      display: block;
+      text-align: center;
+      height: 47vh;
+      margin-left: 7rem;
+    }
+
+
+    .parallaxIndexInicio {
+        height: 50vh;
+    }
+
+    .parallaxIndexCentro {
+      height: 30vh;
+    }
+
+    .image {
+        height: 32rem;
+    }
+
+    .parallaxIndexFinal {
+      height: 55vh;
     }
 }
