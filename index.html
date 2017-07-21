@@ -4,7 +4,6 @@
 <head>
   <title>Dulcis Costa RIca</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="src/css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
@@ -25,12 +24,13 @@
       $('#nav li:has(ul)').doubleTapToGo();
     });
   </script>
+  <link rel="stylesheet" href="src/css/style.css" />
 </head>
 
 <body>
   <header class="header">
     <div class="logo">
-      <a href=" "><img src="src/imagenes/dulcis.png" alt="" /></a>
+      <a href=" "><img src="src/imagenes/dulcis.png" />
     </div>
     <nav class="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
       <ul class="clearfix">
@@ -55,7 +55,7 @@
         <li><a href="src/puntosDeVenta.html">Puntos de Venta</a></li>
 
       </ul>
-    </nav>
+      </nav>
   </header>
   <div class="parallaxIndexInicio">
     <div class="bienvenida">
@@ -65,38 +65,45 @@
     </div>
   </div>
 
-  <div class="introduccion">
-
+  <div class="introduccion row">
     <div class="homeIntroduction">
-
-      <div class="homeParagraphs">
-        <p class="home_letter font">
-          Dulcis mezcla los mejores tesoros guardados de Costa Rica; sus granos de cacao y piña dorada, en un dulce perfecto para cualquier
-          ocasión
-        </p>
-        <p class="home_letter font">
-          Descubre acá nuestros productos y toda la información acerca de nosotros
-        </p>
+      <div class="col-md-5">
+        <div class="homeParagraphs">
+          <p class="home_letter font">
+            Dulcis mezcla los mejores tesoros guardados de Costa Rica; sus granos de cacao y piña dorada, en un dulce perfecto para cualquier
+            ocasión
+          </p>
+          <p class="home_letter">
+            Descubre acá nuestros productos y toda la información acerca de nosotros
+          </p>
+        </div>
       </div>
-
-      <div class="homeImage">
-        <img src="src/imagenes/dulcis.jpg" alt="imagen dulcis">
+      <div class="col-md-3">
+        <div class="homeImage">
+          <img src="src/imagenes/dulcis.jpg" alt="imagen dulcis">
+        </div>
       </div>
     </div>
-
-
-
   </div>
-
-  <div class="parallaxIndexInicio"></div>
-  <div class="parallaxIndexCentro"></div>
-  <div class="introduccion">
-    <h2>Nuestros productos</h2>
-    <div class="contenedorImagenes">
+  <div class="parallaxIndexCentro row">
+    <div class="bienvenida">
+      <h1>Nuestros productos</h2>
+    </div>
+  </div>
+  <div class="products row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>😋 Piña Dorada Con Chocolate Oscuro 🤤</h2>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quaerat, vero labore distinctio numquam, dignissimos
+        maiores sint nesciunt, blanditiis fugit ullam ab consequuntur tempore suscipit veritatis molestias ducimus? Veritatis,
+        perferendis.</p>
+      <div class="col-md-10 col-md-offset-1">
+        <img class="image" src="src/imagenes/chocolateOscuro.png" alt="Pinña Dorada con Chocolate Oscuro" />
+      </div>
+    </div>
+    <!-- <div class="contenedorImagenes">
       <div class="imagen1"><img src="src/imagenes/pi%C3%B1aConfitadaEmpaque.jpg" alt="" /></div>
       <div class="imagen2"><img src="src/imagenes/pi%C3%B1aChocolateEmpaque.jpg" alt="" /></div>
-    </div>
-
+    </div> -->
   </div>
   <div class="parallaxIndexCentro"></div>
 </body>

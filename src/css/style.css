@@ -1,14 +1,19 @@
 * {
   box-sizing: border-box;
-  font-family: 'Amatic SC', cursive;
-   font-size: 20px; 
+  font-family: 'Amatic SC'; 
+  font-size: 12px;   
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-h1, h2, h3, .font {
-  font-family: 'Amatic SC', cursive;
+
+body, html {
+  height: 100%;
+}
+
+img {
+  max-width: 100%
 }
 
 h1 {
@@ -16,20 +21,14 @@ h1 {
 }
 
 h2 {
-   font-size: 3rem; 
+   font-size: 4rem; 
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
-
-body, html {
-  height: 100%;
-}
-
 
 /**** MENU  ****/
-
 .header {
   width: 100%;
   display: flex;
@@ -39,7 +38,7 @@ body, html {
   justify-content: flex-start;
   align-content: stretch;
   align-items: flex-start;
-  margin-bottom: -1.3rem;
+  /* margin-bottom: -1.3rem; */
 }
 
 .logo {
@@ -49,22 +48,20 @@ body, html {
 }
 
 .logo img {
-  max-width: 4rem;
+  max-width: 6rem;
   display: inline-block;
   text-align: center;
-  padding: 13px 12px;
+  /* padding: 13px 12px; */
 }
 
 .nav {
   width: 100%;
   height: 5rem;
-  /*
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   position: absolute;
-  left: 50%;
-  margin-left: -40rem;
-  */
+  left: 50%; 
+  margin-left: -40rem; */
 }
 
 .nav > a {
@@ -72,7 +69,7 @@ body, html {
 }
 
 .nav li {
-  position: relative;
+   position: relative; 
 }
 
 .nav li a {
@@ -82,6 +79,7 @@ body, html {
 }
 
 .nav li a:active {
+  background-color: #A12325;
   background-color: #A12325;
   color: white;
 }
@@ -109,7 +107,7 @@ body, html {
 /* first level */
 
 .nav > ul {
-  height: 3.75rem;
+  height: 6rem;
   list-style-type: none;
 }
 
@@ -121,12 +119,12 @@ body, html {
 
 .nav > ul > li > a {
   height: 100%;
-  font-size: 1.8rem;
-  /* 24 */
-  line-height: 2.5rem;
+  font-size: 3rem;
+   /* 24   */
+  line-height: 6rem; 
   /* 60 (24) */
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Amatic SC', cursive; */
   font-weight: bold;
   color: #000000;
   text-align: left;
@@ -149,7 +147,7 @@ body, html {
   background-color: #FFF;
   display: none;
   position: absolute;
-  /*    top: 100%;*/
+  /*top: 100%;*/
   list-style-type: none;
 }
 
@@ -164,10 +162,10 @@ body, html {
 }
 
 .nav li ul a {
-  font-size: 1.65em;
-  /* border-top: 1px solid #e15a1f; */
+  font-size: 2em;
+   /* border-top: 1px solid #e15a1f;  */
   padding: 0.35rem;
-  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Amatic SC', cursive; */
   font-weight: bold;
 }
 
@@ -318,15 +316,6 @@ body, html {
 }
 
 /***** Pagina Home - (index.html)*******/
-
-.bienvenida {
-    /*    margin-top: 5rem;*/
-    text-align: center;
-    /*    color: #A12325;*/
-    color: #fff;
-    padding-top: 10rem;
-}
-
 .parallaxIndexInicio {
     /* The image used */
     /*    background-image: */
@@ -340,50 +329,75 @@ body, html {
     background-size: cover;
 }
 
-.introduccion {
-    height: 100vh;
-    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
-    background: #f8f8f8;
-    font-size: 25px;
+.bienvenida {
+    /*    margin-top: 5rem;*/
+    /*    color: #A12325;*/
+    color: #fff;
+    padding-top: 15%;
     text-align: center;
-    padding: 10rem 8rem;
+}
+
+.introduccion {
+  height: 80vh;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
+  background: #f8f8f8;
+  font-size: 25px;
+  text-align: center;
+  padding: 10rem 8rem;
 }
 .home_letter{
-    font-size: 1.3rem;
-    padding: 4rem;
+  font-size: 4rem;
+  padding: 4rem;
 }
 
 .homeIntroduction{
-    display: flex;
-    flex-direction: row;
-    /*flex-wrap: nowrap;*/
-    justify-content: space-around;
-    align-content: stretch;
-    align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: stretch;
 }
 
 .homeParagraphs{
-    order: 0;
-    flex: 2 1 auto;
-    align-self: auto;
+  order: 0;
+  flex: 2 1 auto;
+  align-self: auto;
 }
 
 .homeImage{
-   flex: 1 1 auto;
-   width: 100%;
-
+  flex: 1 1 auto;
 }
 
 .parallaxIndexCentro {
     /* The image used */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/IMG_0818.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/todos.jpg");
     /* Full height */
-    height: 100%;
+    height: 80%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.products {
+  height: 80vh;
+   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5));  */
+  background: #f8f8f8;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 8rem; 
+}
+
+.description {
+  font-size:3rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.image {
+   height: 40rem;
 }
 
 .imagen1 {
@@ -406,13 +420,6 @@ body, html {
     align-content: stretch;
     align-items: center;
 }
-
-img {
-    max-width: 100%
-}
-
-;
-
 /*Pagina PinaConfitada - (index.html)*/
 
 .parallaxPinaConfitadaInicio {
