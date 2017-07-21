@@ -6,21 +6,26 @@
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <!-- for unminified version add this -->
   <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.css" />
   <!-- for minified version add this -->
   <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.min.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $('#nav li:has(ul)').doubleTapToGo();
+    });
+  </script>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <a href=" "><img src="imagenes/dulcis.png" alt="" /></a>
+  <header id="header">
+    <div id="logo">
+      <a href="../index.html"><img src="imagenes/dulcis.png" alt="" /></a>
     </div>
-    <nav class="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
+    <nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
       <ul class="clearfix">
         <li> <a href="javascript:void(0)" aria-haspopup="true">Productos</a>
           <ul>
@@ -45,11 +50,12 @@
     </nav>
   </header>
 
+
   <div class="container">
     <div class="row topRow">
       <div class="col-sm-12">
         <h1 class="titleHistory">Asociación de Mujeres Amazilia del Caribe</h1>
-        <p>El nombre Amazilia es el nombre científico el colibrí, el cuál abunda en los cacaotales y alrededor del pueblo.</p>
+        <p class="descriptionAccordion"> El nombre Amazilia es el nombre científico el colibrí, el cuál abunda en los cacaotales y alrededor del pueblo.</p>
       </div>
       <div class="col-sm-12">
         <div class="panel-group" id="accordion">
@@ -59,7 +65,7 @@
                 <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ubicación</a>
               </h4>
             </div>
-            <div id="collapse1" class="panel-collapse collapse in">
+            <div class="descriptionAccordion" id="collapse1" class="panel-collapse collapse in">
               <div class="panel-body descriptionAccordion">Se ubica en la provincia de Limón,cantón de Guácimo, distrito Duacarí, comunidad Pueblo Nuevo, 50 metros al
                 este de la Iglesia Católica.</div>
             </div>
@@ -94,30 +100,32 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Consolidación</a>
+                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Consolidación</a>
               </h4>
             </div>
-            <div id="collapse3" class="panel-collapse collapse">
-              <div class="panel-body descriptionAccordion">En el 2005 el grupo se consolido oficialmente como Asociación de Mujeres Amazilia del Caribe con su respectiva cédula jurídica. SIGNIFICADO DEL NOMBRE AMAZILIA ES EL NOMBRE CIENTÍFICO DEL COLIBRÍ QUE ABUNDA EN LOS CACAOTALES Y ALREDEDOR DEL PUEBLO, Y POR ENDE TAMBIÉN ESTÁ REPRESENTADO EN EL LOGO COMERCIAL QUE LAS IDENTIFICA</div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body descriptionAccordion">En el 2005 el grupo se consolido oficialmente como Asociación de Mujeres Amazilia del Caribe con su respectiva
+                cédula jurídica.</div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Principal objetivo</a>
+                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Principal objetivo</a>
               </h4>
             </div>
-            <div id="collapse3" class="panel-collapse collapse">
-              <div class="panel-body descriptionAccordion">Organizar a las mujeres de la comunidad para buscar alternativas que mejoraran los ingresos familiares y así elevar las condiciones socio-económicas de sus hogares.</div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body descriptionAccordion">Organizar a las mujeres de la comunidad para buscar alternativas que mejoraran los ingresos familiares y así
+                elevar las condiciones socio-económicas de sus hogares.</div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Instituciones de apoyo</a>
+                <a class="description" data-toggle="collapse" data-parent="#accordion" href="#collapse6">Instituciones de apoyo</a>
               </h4>
             </div>
-            <div id="collapse3" class="panel-collapse collapse">
+            <div id="collapse6" class="panel-collapse collapse">
               <div class="panel-body descriptionAccordion">IMAS, CNP, EARTH, Dulcis.</div>
             </div>
           </div>
