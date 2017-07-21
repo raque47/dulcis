@@ -3,33 +3,50 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> </head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- for unminified version add this -->
+    <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.css" />
+    <!-- for minified version add this -->
+    <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.min.css" />
+</head>
 
 <body>
-    <header id="header">
-        <div id="logo">
-            <a href=" "><img src="dulcis.png" alt="" /></a>
+    <header class="header">
+        <div class="logo">
+            <a href=" "><img src="imagenes/dulcis.png" alt="" /></a>
         </div>
-        <div id="navigation">
-            <ul class="sidenav">
-                <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Productos</a>
-                    <div class="dropdown-content"> <a href="piñaConfitada.html">Piña Confitada Deshidratada </a> <a href="piñaConfitadaChocolate.html">Piña Confitada Deshidratada con Chocolate Oscuro </a> </div>
+        <nav class="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
+            <ul class="clearfix">
+                <li> <a href="javascript:void(0)" aria-haspopup="true">Productos</a>
+                    <ul>
+                        <li> <a href="piñaConfitada.html">Piña Confitada Deshidratada </a> </li>
+                        <li> <a href="piñaConfitadaChocolate.html">Piña Confitada Deshidratada con Chocolate Oscuro </a> </li>
+                    </ul>
                 </li>
-                <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Acerca de Nosotros</a>
-                    <div class="dropdown-content"> <a href="historia.html">Historia</a> <a href="equipo.html">Equipo</a> </div>
+                <li> <a href="javascript:void(0)" aria-haspopup="true">Acerca de Nosotros</a>
+                    <ul>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="equipo.html">Equipo</a></li>
+                    </ul>
                 </li>
-                <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Impacto Social</a>
-                    <div class="dropdown-content"> <a href="fundacion.html">Fundación FRUKTUS</a> <a href="asociacionMujeres.html">Asociación de Mujeres Amazilias del Caribe</a> <a href="proyectoHuertasEscolares.html">Proyecto Huertas Escolares</a> </div>
+                <li> <a href="javascript:void(0)" aria-haspopup="true">Fundación FRUKTUS</a>
+                    <ul>
+                        <li><a href="asociacionMujeres.html">Asociación de Mujeres Amazilias del Caribe</a></li>
+                        <li><a href="huertasEscolares.html">Proyecto Huertas Escolares</a></li>
+                    </ul>
                 </li>
-                <li><a href="puntosDeVenta.html" class="dropbtn">Puntos de Venta</a></li>
-                <li><a href="contacto.html" class="dropbtn">Contacto</a></li>
+                <li><a href="puntosDeVenta.html">Puntos de Venta</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
-    
+
     <div class="content">
-       
+
         <section id="puntosDeVenta">
             <div class="col-md-8 col-md-offset-2">
                 <h1>PUNTOS DE VENTA</h1>
@@ -39,28 +56,25 @@
                 <iframe scrolling="no" src="https://www.google.com/maps/d/embed?mid=1jVv_BCoZRSHJLIaihk3EkdJV5ZM" width="640" height="480"></iframe>
             </div>
         </section>
-        
-    
-       
+
         <ul style="list-style-type:disc">
-          <li>Auto Mercado</li>
-          <li>Casa Tica Britt Shop Aeropuerto Juan Santamaria</li>
-          <li>Four Seasons Resort, Península Papagayo</li>
-          <li>El Mercadito de Appunto Ave. Escazú</li>
-          <li>Lapa Ríos Eco Lodge, Península de Osa</li>
-        </ul>  
+            <li>Auto Mercado</li>
+            <li>Casa Tica Britt Shop Aeropuerto Juan Santamaria</li>
+            <li>Four Seasons Resort, Península Papagayo</li>
+            <li>El Mercadito de Appunto Ave. Escazú</li>
+            <li>Lapa Ríos Eco Lodge, Península de Osa</li>
+        </ul>
 
-       <ul style="list-style-type:disc">
-          <li>Universidad EARTH en Limon</li>
-          <li>Arenas del Mar Beach and Nature Resort</li>
-          <li>Latitude 10 Beach Resort</li>
-          <li>Centro de Nutrición Larisa Paez</li>
-          <li>Mercadito Central Combai</li>
-          <li>Kurá Design Villas</li>
-        </ul>  
-
-        
+        <ul style="list-style-type:disc">
+            <li>Universidad EARTH en Limon</li>
+            <li>Arenas del Mar Beach and Nature Resort</li>
+            <li>Latitude 10 Beach Resort</li>
+            <li>Centro de Nutrición Larisa Paez</li>
+            <li>Mercadito Central Combai</li>
+            <li>Kurá Design Villas</li>
+        </ul>
     </div>
+
 </body>
 
 </html>

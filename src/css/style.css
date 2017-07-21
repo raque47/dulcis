@@ -448,6 +448,12 @@ h3 {
 }
 
 
+/* Page History*/
+
+.historyRow{
+    padding-top: 6rem;
+}
+
 /* Small devices */
 
 @media all and (max-width: 768px) {
