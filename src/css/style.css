@@ -83,7 +83,6 @@ body, html {
 
 .nav li a:active {
   background-color: #A12325;
-  !important;
   color: white;
 }
 
