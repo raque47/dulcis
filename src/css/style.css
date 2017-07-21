@@ -391,11 +391,12 @@ h3 {
 }
 
 .description {
-  font-size:3rem;
-  padding-top: 2rem;
-  width: 100%;
+    font-size: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    text-align: justify;
 }
-
 .image {
    height: 40rem;
 }
