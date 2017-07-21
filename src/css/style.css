@@ -338,35 +338,26 @@ h3 {
 }
 
 .introduccion {
-  height: 80vh;
+  height: 80%;
   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
   background: #f8f8f8;
   font-size: 25px;
   text-align: center;
-  padding: 10rem 8rem;
-}
-.home_letter{
-  font-size: 4rem;
-  padding: 4rem;
+  /* padding: 10rem 8rem; */
 }
 
-.homeIntroduction{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-content: stretch;
-  align-items: stretch;
+.homeParagraphs {
+  padding-top: 15rem;
 }
+.img-responsive {
 
-.homeParagraphs{
-  order: 0;
-  flex: 2 1 auto;
-  align-self: auto;
+}
+.col-md-4, .col-md-5 {
+  background-color: red;
 }
 
 .homeImage{
-  flex: 1 1 auto;
+  /* margin-left: 8rem; */
 }
 
 .parallaxIndexCentro {
