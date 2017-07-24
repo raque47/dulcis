@@ -360,7 +360,7 @@ h3 {
 }
 
 .introduccion {
-  height: 80vh;
+  height: 100vh;
   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5)); */
   background: #f8f8f8;
   font-size: 25px;
@@ -407,12 +407,13 @@ h3 {
 }
 
 .products {
-  height: 90vh;
+  height: 119vh;
    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(161, 35, 37, 0.5));  */
   background: #f8f8f8;
   font-size: 25px;
   text-align: center;
   padding-top: 8rem; 
+  display: flex;
 }
 
 .description {
@@ -584,7 +585,7 @@ Page Amazilias Womens
         font-weight: 600;
     }
     .parallaxIndexCentro{
-        height: 100vh;
+        height: 64vh;
     }
     .products{
         padding-top: 0;
@@ -593,11 +594,10 @@ Page Amazilias Womens
         height: 32rem;
     }
     .parallaxIndexInicio {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto;
+        background-attachment: initial;
         height: 85vh;
+             color: palegreen;
+        background-color: palegreen;
     }
     .parallaxIndexFinal{
         height: 65%;
@@ -643,6 +643,8 @@ and (max-device-width : 736px) {
         background-repeat: no-repeat;
         background-size: auto;
         height: 85vh;
+             color:rebeccapurple;
+        background-color: rebeccapurple;
     }
     .parallaxIndexFinal{
         height: 65%;
@@ -687,6 +689,8 @@ and (max-device-width : 667px) {
         background-repeat: no-repeat;
         background-size: auto;
         height: 65vh;
+           color: lightskyblue;
+        background-color: lightskyblue;
     }
     .parallaxIndexFinal{
         height: 55%;
@@ -726,6 +730,8 @@ and (max-device-width : 667px) {
         background-repeat: no-repeat;
         background-size: auto;
         height: 70vh;
+                   color: orange;
+        background-color: orange;
     }
     .introduccion {
         height: 100vh;
