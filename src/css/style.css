@@ -568,22 +568,49 @@ Page Amazilias Womens
         height: 47vh;
         margin-left: 7rem;
     }
-    /*.parallaxIndexCentro {
-      height: 30vh;
+    .homeParagraphs{
+        padding-top: 0;
     }
-
-    .image {
+    .imageDulcis{
+        width: 57%;
+        margin-left: 27%;
+    }
+    .dulcisHomeDesktop{
+        display: none;
+    }
+    .dulcisHomeMobile{
+        display: block;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .parallaxIndexCentro{
+        height: 100vh;
+    }
+    .products{
+        padding-top: 0;
+    }
+    .image{
         height: 32rem;
     }
-
-    .parallaxIndexFinal {
-      height: 55vh;
-    }*/
+    .parallaxIndexInicio {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 85vh;
+    }
+    .parallaxIndexFinal{
+        height: 65%;
+    }
+    h2 {
+        margin-top: 0;
+        padding-top: 2rem;
+    }
 }
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { 
-      .homeParagraphs{
+    .homeParagraphs{
         padding-top: 0;
     }
     .imageDulcis{
