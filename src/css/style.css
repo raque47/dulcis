@@ -580,14 +580,59 @@ Page Amazilias Womens
       height: 55vh;
     }
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+      .homeParagraphs{
+        padding-top: 0;
+    }
+    .imageDulcis{
+        width: 57%;
+        margin-left: 27%;
+    }
+    .dulcisHomeDesktop{
+        display: none;
+    }
+    .dulcisHomeMobile{
+        display: block;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .parallaxIndexCentro{
+        height: 83%;
+    }
+    .products{
+        padding-top: 0;
+    }
+    .image{
+        height: 32rem;
+    }
+    .parallaxIndexInicio {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 85vh;
+    }
+    .parallaxIndexFinal{
+        height: 65%;
+    }
+    h2 {
+        margin-top: 0;
+        padding-top: 2rem;
+    }
+}
 
-@media only screen and ( max-width: 640px) {
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
     .homeParagraphs{
         padding-top: 0;
     }
     .imageDulcis{
         width: 57%;
-        margin-left: 9.3rem;
+        margin-left: 27%;
     }
     .dulcisHomeDesktop{
         display: none;
@@ -627,7 +672,7 @@ Page Amazilias Womens
     ul.sidenav li a {
         text-align: center;
         float: none;
-            }
+    }
 
     .homeParagraphs {
       padding-top: 2rem;
@@ -658,7 +703,7 @@ Page Amazilias Womens
 
     .imageDulcis{
         width: 57%;
-        margin-left: 7.6rem;
+        margin-left: 27%;
     }
     .parallaxIndexCentro {
       height: 30vh;
