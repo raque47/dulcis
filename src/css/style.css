@@ -347,6 +347,9 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.background{
+    display: none;
+}
 
 .bienvenida {
     /*    margin-top: 5rem;*/
@@ -565,11 +568,6 @@ Page Amazilias Womens
         height: 47vh;
         margin-left: 7rem;
     }
-
-    .parallaxIndexInicio {
-        height: 50vh;
-    }
-
     .parallaxIndexCentro {
       height: 30vh;
     }
@@ -599,9 +597,6 @@ Page Amazilias Womens
         font-size: 3rem;
         font-weight: 600;
     }
-    .parallaxIndexInicio {
-        height: 75%;
-    }
     .parallaxIndexCentro{
         height: 63%;
     }
@@ -610,6 +605,13 @@ Page Amazilias Womens
     }
     .image{
         height: 32rem;
+    }
+    .parallaxIndexInicio {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 65vh;
     }
     .parallaxIndexFinal{
         height: 55%;
@@ -621,7 +623,7 @@ Page Amazilias Womens
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (device-aspect-ratio: 40/71)  {
     ul.sidenav li a {
         text-align: center;
         float: none;
@@ -643,10 +645,21 @@ Page Amazilias Womens
     }
 
 
-    .parallaxIndexInicio {
-        height: 50vh;
+     .parallaxIndexInicio {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 70vh;
+    }
+    .introduccion {
+        height: 100vh;
     }
 
+    .imageDulcis{
+        width: 57%;
+        margin-left: 7.6rem;
+    }
     .parallaxIndexCentro {
       height: 30vh;
     }
