@@ -568,7 +568,7 @@ Page Amazilias Womens
         height: 47vh;
         margin-left: 7rem;
     }
-    .parallaxIndexCentro {
+    /*.parallaxIndexCentro {
       height: 30vh;
     }
 
@@ -578,7 +578,7 @@ Page Amazilias Womens
 
     .parallaxIndexFinal {
       height: 55vh;
-    }
+    }*/
 }
 @media only screen 
 and (min-device-width : 414px) 
