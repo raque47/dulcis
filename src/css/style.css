@@ -605,7 +605,10 @@ Page Amazilias Womens
     h2 {
         margin-top: 0;
         padding-top: 2rem;
+        color: palegreen;
+        background-color: palegreen;
     }
+    
 }
 @media only screen 
 and (min-device-width : 414px) 
