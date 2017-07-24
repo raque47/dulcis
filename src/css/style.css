@@ -599,7 +599,7 @@ and (max-device-width : 736px) {
         font-weight: 600;
     }
     .parallaxIndexCentro{
-        height: 83%;
+        height: 100vh;
     }
     .products{
         padding-top: 0;
