@@ -619,7 +619,9 @@ Page Amazilias Womens
         font-weight: 600;
     }
     .parallaxIndexCentro{
-        height: 100vh;
+        height: 100%;
+        width: 100%;
+        background-attachment: scroll;
     }
     .products{
         padding-top: 0;
@@ -628,9 +630,9 @@ Page Amazilias Womens
         height: 32rem;
     }
     .parallaxIndexInicio {
-        background-attachment: initial;
-        height: 100vh;
+        height: 100%;
         width: 100%;
+        background-attachment: scroll;
     }
     .parallaxIndexFinal{
         height: 100%;
