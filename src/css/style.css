@@ -18,7 +18,7 @@ img {
 
 h1 {
   font-size: 8.2rem;
-     font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
@@ -416,9 +416,6 @@ h3 {
   padding-top: 8rem; 
   display: flex;
 }
-.container {
-      background: #f8f8f8;
-}
 .description {
     font-size: 2rem;
     padding-top: 2rem;
@@ -489,27 +486,28 @@ h3 {
 
 /* Page History*/
 
-.topRow{
-    padding-top: 6rem;
+.container{
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 
 /*Page places */
 .listOfPlaces {
-    font-size: 2rem;
-    padding: 0.2rem;
-    width: 100%;
-    font-family: 'Proxima Nova', Georgia, sans-serif;
-    text-align: justify;
-    list-style-type:disc;
+  font-size: 2rem;
+  padding: 0.2rem;
+  width: 100%;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  text-align: justify;
+  list-style-type:disc;
 }
 
 .place {
-    font-size: 1.7rem;
-    padding: 0.4rem;
-    width: 100%;
-    font-family: 'Proxima Nova', Georgia, sans-serif;
-    text-align: justify;
-    list-style-type:disc;
+  font-size: 1.7rem;
+  padding: 0.4rem;
+  width: 100%;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  text-align: justify;
+  list-style-type:disc;
 }
 
 .colListOfPlaces{
