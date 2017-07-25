@@ -28,6 +28,32 @@
       $('#nav li:has(ul)').doubleTapToGo();
     });
   </script>
+  <script>
+    document.getElementById("buttonOpenMenu").onclick = function () { moveDownInfo() };
+
+    function moveDownInfo() {
+      var containerStyle = document.getElementById("containerMove").style;
+      containerStyle.position = "relative";
+      containerStyle.top = containerStyle.top = "30rem";
+
+      var footerStyle = document.getElementById("footerMove").style;
+      footerStyle.position = "relative";
+      footerStyle.top = footerStyle.top = "30rem";
+    }
+
+    document.getElementById("buttonCloseMenu").onclick = function () { moveUpInfo() };
+
+    function moveUpInfo() {
+      var containerStyle = document.getElementById("containerMove").style;
+      containerStyle.position = "relative";
+      containerStyle.top = containerStyle.top = "0";
+
+      var footerStyle = document.getElementById("footerMove").style;
+      footerStyle.position = "relative";
+      footerStyle.top = footerStyle.top = "0";
+    }
+
+  </script>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -36,7 +62,9 @@
     <div id="logo">
       <a href="../index.html"><img src="../src/imagenes/dulcis.png" alt="" /></a>
     </div>
-    <nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
+    <nav id="nav" role="navigation">
+      <a href="#nav" onclick="moveDownInfo()" id="buttonOpenMenu" title="Show navigation">Show navigation</a>
+      <a href="#" onclick="moveUpInfo()" id="buttonCloseMenu" title="Hide navigation">Hide navigation</a>
       <ul class="">
         <li> <a href="javascript:void(0)" aria-haspopup="true">Productos</a>
           <ul>
@@ -63,7 +91,7 @@
 
 
 
-  <div class="container">
+  <div class="container" id="containerMove">
     <div class="row topRow">
       <div class="col-sm-12">
         <h1 class="titleHistory">Conoce más acerca de nosostros..</h1>
@@ -86,7 +114,7 @@
     </div>
   </div>
 
-  <footer class="footer">
+  <footer class="footer" id="footerMove">
     <div class=" container-fluid">
       <div class="col-md-9 col-md-offset-1">
         <ul class="footerNav">
