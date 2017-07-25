@@ -534,17 +534,11 @@ Page Amazilias Womens
 }
 
 /*footer  */
-.parallaxFooter {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/pina.png');  
-  /* background-color: #A12325;  */
-  /* Full height */
-  width: 100vw;
-  height: 20vh;
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed; */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;  
+.footer {
+  background-color: #A12325;
+  width: 100%;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 .footerNav {
   list-style: none;
@@ -554,120 +548,134 @@ Page Amazilias Womens
   padding: 2rem;
 }
 .footerNav > li > a {
+  color: #FFF;
+  cursor: pointer;
   font-size: 3.5rem;
 }
 .footerNav > li > ul {
   list-style: none;
-  
 }
 .footerNav > li > ul > li > a {
+  color: #FFF;
+  cursor: pointer;
   font-size: 2.5rem;
 }
 .social{
+  color: #FFF;
+  cursor: pointer;
   font-size: 5rem;
   padding: 2rem;
+}
+.social:hover {
+  color: #3b5998;
+  -webkit-transition: ease-in;
+  transition: 1s;
+}
+.copyRight {
+  color: #FFF;
+  text-align: center;
+}
+.copyRight > p {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 1.3rem;
 }
 /* Small devices */
 
 @media all and (max-width: 768px) {
-    .logo {
-        display: none;
-    }
-    .navigation {
-        margin: 0;
-    }
-    .content {
-        padding: 0.5rem;
-    }
-    .footer {
-        padding: 0.5rem 0;
-    }
-    .footer div.content {
-        flex-direction: column;
-    }
-    ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {
-        margin-left: 0;
-    }
-    .homeParagraphs {
-      padding-top: 2rem;
-    }
-    .homeImage {
-        padding-top: 6%;
-
-        position: relative;
-        left: 8.3%;
-    }
-    .imageDulcis{
-        /*width: 57%;
-        margin-left: 30%;*/
-        width: 85%;
-    }
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        text-align: center;
-        height: 47vh;
-        margin-left: 7rem;
-    }
-    .homeParagraphs{
-        padding-top: 0;
-    }
-
-    .dulcisHomeDesktop{
-        display: none;
-    }
-    .dulcisHomeMobile{
-        display: block;
-        font-size: 3rem;
-        font-weight: 600;
-    }
-    .parallaxIndexCentro{
-        height: 55%;
-        width: 100%;
-        background-attachment: scroll;
-    }
-    .products{
-        padding-top: 0;
-    }
-    .image{
-        height: 32rem;
-    }
-    .parallaxIndexInicio {
-        height: 110%;
-        width: 100%;
-        background-attachment: scroll;
-        padding-bottom: 0.3rem;
-    }
-    .parallaxIndexFinal{
-        height: 100%;
-        width: 100%;
-        background-attachment: scroll;
-    }
-    h2 {
-        margin-top: 0;
-        padding-top: 1rem;
-           font-size: 3.3rem;
-    }
-    .bienvenida {
-        padding-top: 2.1rem;
-    }
-    .introduccion {
-        height: 100vh;
-        padding-top: 0;
-    }
-    .productsTitle{
-        padding-top: 2rem;
-    }
-
-    
+  .logo {
+    display: none;
+  }
+  .navigation {
+    margin: 0;
+  }
+  .content {
+    padding: 0.5rem;
+  }
+  .footer {
+    padding: 0.5rem 0;
+  }
+  .footer div.content {
+    flex-direction: column;
+  }
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  div.content {
+    margin-left: 0;
+  }
+  .homeParagraphs {
+    padding-top: 2rem;
+  }
+  .homeImage {
+    padding-top: 6%;
+    position: relative;
+    left: 8.3%;
+  }
+  .imageDulcis{
+    /*width: 57%;
+    margin-left: 30%;*/
+    width: 85%;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    text-align: center;
+    height: 47vh;
+    margin-left: 7rem;
+  }
+  .homeParagraphs{
+    padding-top: 0;
+  }
+  .dulcisHomeDesktop{
+    display: none;
+  }
+  .dulcisHomeMobile{
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .parallaxIndexCentro{
+    height: 55%;
+    width: 100%;
+    background-attachment: scroll;
+  }
+  .products{
+    padding-top: 0;
+  }
+  .image{
+    height: 32rem;
+  }
+  .parallaxIndexInicio {
+    height: 110%;
+    width: 100%;
+    background-attachment: scroll;
+    padding-bottom: 0.3rem;
+  }
+  .parallaxIndexFinal{
+    height: 100%;
+    width: 100%;
+    background-attachment: scroll;
+  }
+  h2 {
+    margin-top: 0;
+    padding-top: 1rem;
+    font-size: 3.3rem;
+  }
+  .bienvenida {
+    padding-top: 2.1rem;
+  }
+  .introduccion {
+    height: 100vh;
+    padding-top: 0;
+  }
+  .productsTitle{
+    padding-top: 2rem;
+  }
 }
 @media only screen 
 and (min-device-width : 414px) 
