@@ -381,7 +381,6 @@ h3 {
 
 .homeImage {
   padding-top: 6%;
-  width: 90%;
 }
 .parallaxIndexCentro {
   /* The image used */
@@ -601,11 +600,17 @@ Page Amazilias Womens
     .homeParagraphs {
       padding-top: 2rem;
     }
+    .homeImage {
+        padding-top: 6%;
 
-    .homeImage {
-      padding-top: 0;
+        position: relative;
+        left: 8.3%;
     }
-
+    .imageDulcis{
+        /*width: 57%;
+        margin-left: 30%;*/
+        width: 85%;
+    }
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         display: block;
         text-align: center;
@@ -615,10 +620,7 @@ Page Amazilias Womens
     .homeParagraphs{
         padding-top: 0;
     }
-    .imageDulcis{
-        width: 57%;
-        margin-left: 30%;
-    }
+
     .dulcisHomeDesktop{
         display: none;
     }
@@ -628,7 +630,7 @@ Page Amazilias Womens
         font-weight: 600;
     }
     .parallaxIndexCentro{
-        height: 75%;
+        height: 55%;
         width: 100%;
         background-attachment: scroll;
     }
