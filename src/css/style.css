@@ -534,6 +534,10 @@ Page Amazilias Womens
 }
 
 /*footer  */
+.clearfix {
+  margin: 0;
+  padding: 0;
+}
 .footer {
   background-color: #A12325;
   padding-bottom: 3rem;
