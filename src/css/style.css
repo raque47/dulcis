@@ -628,7 +628,7 @@ Page Amazilias Womens
         font-weight: 600;
     }
     .parallaxIndexCentro{
-        height: 140%;
+        height: 90%;
         width: 100%;
         background-attachment: scroll;
     }
@@ -683,7 +683,7 @@ and (max-device-width : 736px) {
         font-weight: 600;
     }
     .parallaxIndexCentro{
-      height: 140%;
+      height: 90%;
         width: 100%;
         background-attachment: scroll;
     }
@@ -727,7 +727,7 @@ and (max-device-width : 667px) {
         font-weight: 600;
     }
     .parallaxIndexCentro{
-      height: 140%;
+      height: 90%;
         width: 100%;
         background-attachment: scroll;
     }
@@ -789,7 +789,7 @@ and (max-device-width : 667px) {
         margin-left: 27%;
     }
     .parallaxIndexCentro {
-      height: 140%;
+      height: 90%;
         width: 100%;
         background-attachment: scroll;
     }
@@ -826,7 +826,7 @@ and (max-device-width : 667px) {
         height: 50vh;
     }
     .parallaxIndexCentro {
-      height: 140%;
+      height: 90%;
         width: 100%;
         background-attachment: scroll;
     }
