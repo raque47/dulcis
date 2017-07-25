@@ -178,9 +178,9 @@ h3 {
     .img-responsive,
     .thumbnail a>img,
     .thumbnail>img {
-        display: inline;
+        display: initial;
         max-width: 100%;
-        height: auto;
+        height: 88vh;
     }
     .img-responsive {
         height: 53vh;
