@@ -13,6 +13,15 @@
     <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.css" />
     <!-- for minified version add this -->
     <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.min.css" />
+    <script src="https://use.fontawesome.com/da85243b19.js"></script>
+    <script src="doubletaptogo.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+    <script>
+        $(function () {
+            $('#nav li:has(ul)').doubleTapToGo();
+        });
+    </script>
+    <link rel="stylesheet" href="src/css/style.css" />
 </head>
 
 <body>
@@ -37,7 +46,7 @@
                 <li> <a href="javascript:void(0)" aria-haspopup="true">Fundación FRUKTUS</a>
                     <ul>
                         <li><a href="asociacionMujeres.html">Asociación de Mujeres Amazilias del Caribe</a></li>
-                        <li><a href="huertasEscolares.html">Proyecto Huertas Escolares</a></li>
+                        <li><a href="src/huertasEscolares.html">Proyecto Huertas Escolares</a></li>
                     </ul>
                 </li>
                 <li><a href="puntosDeVenta.html">Puntos de Venta</a></li>

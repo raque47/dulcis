@@ -366,6 +366,7 @@ h3 {
   font-size: 25px;
   text-align: center;
   /* padding: 10rem 8rem; */
+  padding-top: 11rem;
 }
 
 .homeParagraphs {
@@ -454,6 +455,12 @@ h3 {
     align-content: stretch;
     align-items: center;
 }
+
+
+.productsTitle{
+
+}
+
 /*Pagina PinaConfitada - (index.html)*/
 
 .parallaxPinaConfitadaInicio {
@@ -650,6 +657,10 @@ Page Amazilias Womens
     .bienvenida {
         padding-top: 2.1rem;
     }
+    .introduccion {
+        height: 100vh;
+        padding-top: 0;
+    }
 
     
 }
@@ -770,6 +781,7 @@ and (max-device-width : 667px) {
     }
     .introduccion {
         height: 100vh;
+        padding-top: 0;
     }
 
     .imageDulcis{
