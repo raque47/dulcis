@@ -2,26 +2,41 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Dulcis | Piña Confitada</title>
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <!-- for unminified version add this -->
-  <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="../src/fonts/fonts.css" />
   <!-- for minified version add this -->
-  <link rel="stylesheet" type="text/css" href="/src/fonts/fonts.min.css" />
+  <link rel="stylesheet" type="text/css" href="../src/fonts/fonts.min.css" />
+  <script src="https://use.fontawesome.com/da85243b19.js"></script>
+  <script src="doubletaptogo.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+  <script>
+    $(function () {
+      $('#nav li:has(ul)').doubleTapToGo();
+    });
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <header id="header">
     <div id="logo">
-      <a href="../index.html"><img src="imagenes/dulcis.png" alt="" /></a>
+      <a href="../index.html"><img src="../src/imagenes/dulcis.png" alt="" /></a>
     </div>
     <nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
-      <ul class="clearfix">
+      <ul class="">
         <li> <a href="javascript:void(0)" aria-haspopup="true">Productos</a>
           <ul>
             <li> <a href="piñaConfitada.html">Piña Confitada Deshidratada </a> </li>
