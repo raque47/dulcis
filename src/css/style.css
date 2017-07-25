@@ -632,9 +632,10 @@ Page Amazilias Womens
         height: 32rem;
     }
     .parallaxIndexInicio {
-        height: 100%;
+        height: 110%;
         width: 100%;
         background-attachment: scroll;
+        padding-bottom: 0.3rem;
     }
     .parallaxIndexFinal{
         height: 100%;
