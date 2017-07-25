@@ -164,9 +164,9 @@ h3 {
 }
 
 #nav li ul a {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   /* border-top: 1px solid #e15a1f; */
-  padding: 1.35rem;
+  padding: 1rem;
   /* font-family: 'Amatic SC', cursive; */
   font-weight: bold;
 }
@@ -488,7 +488,7 @@ h3 {
 
 .container{
   padding-bottom: 6rem;
-  padding-top: 6rem;
+  margin-top: 7.2rem;
 }
 
 /*Page places */
