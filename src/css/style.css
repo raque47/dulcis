@@ -755,6 +755,15 @@ h3 {
     }
 }
 
+/*General responsive*/
+@media only screen and (max-width: 500px) {
+    .imageSingleProduct {
+        height: 45vh;
+        top: 1rem;
+    }
+}
+
+/*Iphone 5*/
 @media screen and (device-aspect-ratio: 40/71) {
     ul.sidenav li a {
         text-align: center;
